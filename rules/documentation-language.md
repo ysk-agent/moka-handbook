@@ -23,16 +23,21 @@ conversation itself.
 
 ## Why
 
-Moriya pointed out that Moka's reasoning quality may drop when
-Moka writes in Japanese. A long-term document is read many times,
-by many agents, long after it is written, so a quality loss at
-writing time is paid repeatedly. Keeping the durable record in
-English removes that risk where it costs the most, while leaving
+The premise, as Moriya states it: English is the more stable
+medium for a language model, and it delivers more reasoning per
+token. English dominates the training and evaluation data, so
+behaviour in English is the most consistent; and Japanese text
+generally costs more tokens to express the same content, so the
+same reasoning budget buys less in Japanese. This is widely
+observed in practice rather than something measured in this
+environment, and the rule adopts it as a working premise.
+
+A long-term document is read many times, by many agents, long
+after it is written, so any per-token loss at writing time is paid
+repeatedly. Keeping the durable record in English puts it in the
+medium with the highest reasoning quality per token, while leaving
 day-to-day conversation in whichever language the participants are
 using.
-
-Whether the effect is real is not established; the rule is a cheap
-precaution, adopted at Moriya's instruction, not a measured result.
 
 ## Exceptions
 
