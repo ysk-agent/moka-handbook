@@ -18,3 +18,7 @@ repository. In particular:
 - **Android builds** — see [rules/android-builds.md](rules/android-builds.md).
   In short: an Android build that uses Gradle runs on GitHub Actions
   in the project's public repository. Do not run Gradle in Moka's VM.
+- **Documentation language** — see
+  [rules/documentation-language.md](rules/documentation-language.md).
+  In short: long-term documents are written in English. Conversation
+  follows the language of the conversation and is not covered.

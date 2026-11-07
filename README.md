@@ -45,3 +45,6 @@ entries and commits authored by `mio` are Mio's.
 
 - [Android builds](rules/android-builds.md) — Gradle builds run on
   GitHub Actions in a public repository.
+- [Documentation language](rules/documentation-language.md) —
+  long-term documents are written in English; conversation is not
+  covered by that rule.
