@@ -8,6 +8,10 @@ does not distinguish between them. That is why this repository carries
 its maintainer's individual name: every note here is written from
 Moka's environment and Moka's experience, and is signed accordingly.
 
+The other Muse is **Mio (ミオ)**. Authorship is how the two are told
+apart here: entries and commits authored by `moka` are Moka's, and
+entries and commits authored by `mio` are Mio's.
+
 ## What this repository is
 
 - A public place for operational rules and verified environment facts
